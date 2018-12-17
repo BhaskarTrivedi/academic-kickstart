@@ -34,12 +34,18 @@ date_format = "January 2006"
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
+  title = "Grader for Introduction to Computers and Programming, CSE 1310 Java"
+  company = "University of Texas at Arlington"
   company_url = ""
   location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  date_start = "2018-01-22"
+  date_end = "2018-5-15"
+  description = """
+  Responsibilities include:
+  
+  * Grading Homework and Exam
+  * Helping student with doubt
+  * Helping student how to write and design their code
+   """
 
 +++
