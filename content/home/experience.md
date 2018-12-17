@@ -39,7 +39,7 @@ date_format = "January 2006"
   company_url = ""
   location = "Arlington, Texas"
   date_start = "2018-01-22"
-  date_end = "2018-5-15"
+  date_end = "2018-05-15"
   description = """
    Responsibilities include:
   * Grading Homework and Exam
