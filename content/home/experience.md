@@ -46,7 +46,8 @@ date_format = "January 2006"
   * Grading Homework and Exam
   * Helping student with doubt
   * Helping student how to write and design their code
-  
+   """
+   
   [[experience]]
   title = "Senior Software developer"
   company = "Robert Bosch Engineering and Business Solutions Limited"
@@ -61,6 +62,7 @@ date_format = "January 2006"
   * Led the system architecture decisions during sprint planning, provided technical directions and code reviews
   * Write code to develop new module, Designed and developed iTraMS EOL test tool which tests the functionality of iTraMS device at    assembly line
   * Initiated training for new resources on the project
+   """
   
   [[experience]]
   title = "Member of technical staff"
@@ -74,6 +76,7 @@ date_format = "January 2006"
   
   * Developed the module to support market data analysis
   * Performed code maintenance and bug fixing to ensure application stability
+   """
   
   [[experience]]
   title = "Senior Software Engineer"
@@ -88,5 +91,6 @@ date_format = "January 2006"
   * Collected, analyzed and summarized business needs and technical requirements for completeness, consistency and clarity in agile methodology
   * Developed a new module using C++, STL, and Boost Library
   * Created Component Level Design (CLD) document according to user requirements
+   """
 
 +++
