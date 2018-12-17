@@ -15,6 +15,8 @@ weight = 5
     "Machine Learning",
     "Computer Vision",
     "Robotics"
+    "Travelling"
+    "Photography"
   ]
 
 # List your qualifications (such as academic degrees).
@@ -24,7 +26,7 @@ weight = 5
   year = 2018
 
 [[education.courses]]
-  course = "BE in Computer Engoneering"
+  course = "BE in Computer Engineering"
   institution = "Bharti Vidyapeeth at Pune, Maharashtra, India"
   year = 2010
 
