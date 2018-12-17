@@ -33,5 +33,5 @@ weight = 5
 
 # Biography
 
-Bhaskar Chandra Trivedi is an Phd Computer Science Student at University of Texas at Arlington . His area of research is Deep Neural Network , machine learning, Computer Vision. He researched different factor which can impact the learning for deep neural network and proposed activation function DWReLU which can enhance accuracy on the test data set.
+Bhaskar Chandra Trivedi is a Phd Computer Science Student at University of Texas at Arlington . His area of research is Deep Neural Network , machine learning, Computer Vision. He researched different factor which can impact the learning for deep neural network and proposed activation function DWReLU which can enhance accuracy on the test data set.
 
