@@ -12,8 +12,8 @@ weight = 5
   interests = [
     "Artificial Intelligence",
     "Deep Learning",
-    "Machine Learning"
-    "Computer Vision"
+    "Machine Learning",
+    "Computer Vision",
     "Robotics"
   ]
 
