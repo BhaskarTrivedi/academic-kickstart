@@ -19,18 +19,18 @@ date_format = "January 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
-  date_end = ""
+  title = "Grader for Object-Oriented Programming C++ course 1325, UTA"
+  University = "University of Texas at Arlington"
+  company_url = "https://www.uta.edu/uta/"
+  location = "Arlington"
+  date_start = "2018-08-22"
+  date_end = "2018-12-15"
   description = """
   Responsibilities include:
   
-  * Analysing
-  * Modelling
-  * Deploying
+  * Grading Homework and Exam
+  * Helping student with doubt
+  * Helping student how to write and design their code
   """
 
 [[experience]]
