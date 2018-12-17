@@ -22,7 +22,7 @@ date_format = "January 2006"
   title = "Grader for Object-Oriented Programming C++ course 1325, UTA"
   University = "University of Texas at Arlington"
   company_url = "https://www.uta.edu/uta/"
-  location = "Arlington"
+  location = "Arlington, Texas"
   date_start = "2018-08-22"
   date_end = "2018-12-15"
   description = """
@@ -37,15 +37,14 @@ date_format = "January 2006"
   title = "Grader for Introduction to Computers and Programming, CSE 1310 Java"
   company = "University of Texas at Arlington"
   company_url = ""
-  location = "California"
+  location = "Arlington, Texas"
   date_start = "2018-01-22"
   date_end = "2018-5-15"
   description = """
-  Responsibilities include:
-  
+   Responsibilities include:
   * Grading Homework and Exam
   * Helping student with doubt
   * Helping student how to write and design their code
-   """
+  """
 
 +++
