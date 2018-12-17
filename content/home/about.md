@@ -14,8 +14,8 @@ weight = 5
     "Deep Learning",
     "Machine Learning",
     "Computer Vision",
-    "Robotics"
-    "Travelling"
+    "Robotics",
+    "Travelling",
     "Photography"
   ]
 
