@@ -12,8 +12,7 @@ authors = ["Bhaskar Chandra Trivedi"]
 list_format = 2
 
 # Step to follow.
-Desable Secure boot in ASUS machine="
-  a) Enter boot menu"
+Desable Secure boot in ASUS machine="Enter Boot Menu"
 
 
 
