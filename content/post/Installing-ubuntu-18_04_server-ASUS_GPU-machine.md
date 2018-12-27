@@ -26,6 +26,6 @@ image = ""
 caption = "" 
 +++
 1)Desable Secure boot in ASUS machine <br />
-    a) Enter Boot Menu.<br />
-    b) Select Advance Menu<br />
+&nbsp; &nbsp; &nbsp; a) Enter Boot Menu.<br />
+&nbsp; &nbsp; &nbsp; b) Select Advance Menu<br />
 {{< figure src="/img/AdvanceMenu.jpg" title="Select Anvance Menu." >}}
