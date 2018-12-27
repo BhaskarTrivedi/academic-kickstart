@@ -1,5 +1,5 @@
 +++
-title = "Disable Secure boot in ASUS machine" 
+title = "Installing Ubuntu 18.04 server ASUS GPU machine" 
 date = 2018-12-21T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -25,16 +25,4 @@ advancemenuimg=""
 image = "" 
 caption = "" 
 +++
-1) Enter Boot Menu.<br />
-2) Select Advance Menu<br />
-{{< figure src="/img/AdvanceMenu.jpg" title="Select Anvance Menu." >}}
-3) Go to Boot Menu.<br />
-{{< figure src="/img/BootMenu.jpg" title="" >}}
-4) Select OS type to Windows UEFI mode.<br />
-{{< figure src="/img/WindowsOS.jpg" title="" >}}
-5) Enter key management.<br />
-{{< figure src="/img/KeyManagement.jpg" title="" >}}
-6) Clear secure boot key.<br />
-{{< figure src="/img/ClearSecureBoot.jpg" title="" >}}
-7) Select OS Type other OS.<br />
-{{< figure src="/img/OtherOS.jpg" title="" >}}
+[1)Disable boot menu in ASUS machine](./Disable-secure-boot-ASUS-Machine.md)
