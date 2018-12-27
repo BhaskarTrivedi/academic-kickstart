@@ -29,3 +29,13 @@ caption = ""
 &nbsp; &nbsp; &nbsp; a) Enter Boot Menu.<br />
 &nbsp; &nbsp; &nbsp; b) Select Advance Menu<br />
 {{< figure src="/img/AdvanceMenu.jpg" title="Select Anvance Menu." >}}
+&nbsp; &nbsp; &nbsp; c) Go to Boot Menu.<br />
+{{< figure src="/img/BootMenu.jpg" title="" >}}
+&nbsp; &nbsp; &nbsp; d) Select OS type to Windows UEFI mode.<br />
+{{< figure src="/img/WindowsOS.jpg" title="" >}}
+&nbsp; &nbsp; &nbsp; e) Enter key management.<br />
+{{< figure src="/img/KeyManagement.jpg" title="" >}}
+&nbsp; &nbsp; &nbsp; f) Clear secure boot key.<br />
+{{< figure src="/img/ClearSecureBoot.jpg" title="" >}}
+&nbsp; &nbsp; &nbsp; g) Select OS Type other OS.<br />
+{{< figure src="/img/OtherOS.jpg" title="" >}}
