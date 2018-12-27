@@ -10,11 +10,6 @@ authors = ["Bhaskar Chandra Trivedi"]
 #1 = Detailed
 #2 = Stream
 list_format = 2
-#Step to follow
-
-1) Desable Secure boot in ASUS machine
-  a) Enter boot menu
-
 
 #Optional featured image (relative to static/img/ folder).
 [header] 
