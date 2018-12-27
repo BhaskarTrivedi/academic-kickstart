@@ -1,5 +1,5 @@
 +++
-title = "Installing ubuntu 18.04 server ASUS GPU machine" 
+title = "Installing Ubuntu 18.04 server ASUS GPU machine" 
 date = 2018-12-21T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -17,7 +17,7 @@ tags = ["Server","Installation"]
 
 # Step to follow.
 Desable_Secure_boot_in_ASUS_machine="1) Enter Boot Menu."
-
+{{< figure src="/img/AdvanceMenu.jpg" title="Select Anvance Menu." >}}
 
 
 #Optional featured image (relative to static/img/ folder).
