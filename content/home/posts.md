@@ -5,7 +5,7 @@ widget = "post0"
 active = true
 date = 2016-04-20T00:00:00
 
-title = "Installing ubuntu 18.04 server ASUS GPU machine machine"
+title = "Recent Posts"
 subtitle = ""
 
 # Order that this section will appear in.
