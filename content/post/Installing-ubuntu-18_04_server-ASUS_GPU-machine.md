@@ -16,7 +16,7 @@ list_format = 2
 tags = ["Server","Installation"]
 
 # Step to follow.
-Desable_Secure_boot_in_ASUS_machine="1) Enter Boot Menu 2) Click on advance Mode(f7)  "
+Desable_Secure_boot_in_ASUS_machine="1) Enter Boot Menu 2) Click on advance Mode(f7) ."
 
 
 
