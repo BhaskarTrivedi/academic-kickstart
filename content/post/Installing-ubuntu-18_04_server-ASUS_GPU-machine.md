@@ -17,7 +17,7 @@ tags = ["Server","Installation"]
 
 # Step to follow.
 Desable_Secure_boot_in_ASUS_machine="1) Enter Boot Menu."
-{{< figure src="/img/AdvanceMenu.jpg" title="Select Anvance Menu." >}}
+advancemenuimg={{< figure src="/img/AdvanceMenu.jpg" title="Select Anvance Menu." >}}
 
 
 #Optional featured image (relative to static/img/ folder).
