@@ -11,7 +11,7 @@ authors = ["Bhaskar Chandra Trivedi"]
 #2 = Stream
 list_format = 2
 
-#Step to follow.
+# Step to follow.
 
 1) Desable Secure boot in ASUS machine
   a) Enter boot menu
