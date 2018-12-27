@@ -25,4 +25,4 @@ advancemenuimg=""
 image = "" 
 caption = "" 
 +++
-[1)Disable boot menu in ASUS machine](../Disable-secure-boot-ASUS-Machine.md)
+[1)Disable boot menu in ASUS machine](../disable-secure-boot-ASUS-Machine.md)
