@@ -25,23 +25,23 @@ advancemenuimg=""
 image = "" 
 caption = "" 
 +++
-1)[Disable boot menu in ASUS machine](../disable-secure-boot-asus-machine)
-2)[Download Ubuntu 18.04LTS from](http://cdimage.ubuntu.com/releases/18.04.1/release/?_ga=2.257800461.721767020.1545698526-895818190.1545698526)
-3)Creat bootable USB drive in UEFI mode( I used rufus software)
-4)Go to bios and keep USB drive (boot medium) at priority
-5)Save and exit
-6)Select Install Ubuntu Server
-7)Select all required option like language, country etc to next screen
-8)Select available network
-9)Enter Host name 
+1)[Disable boot menu in ASUS machine](../disable-secure-boot-asus-machine)<br />
+2)[Download Ubuntu 18.04LTS](http://cdimage.ubuntu.com/releases/18.04.1/release/?_ga=2.257800461.721767020.1545698526-895818190.1545698526)<br />
+3)Creat bootable USB drive in UEFI mode( I used rufus software)<br />
+4)Go to bios and keep USB drive (boot medium) at priority<br />
+5)Save and exit<br />
+6)Select Install Ubuntu Server<br />
+7)Select all required option like language, country etc to next screen<br />
+8)Select available network<br />
+9)Enter Host name <br />
 {{< figure src="/img/Host.jpg" title="" >}}
-10)Enter user name and password
-11)Select partition type
-&nbsp;  &nbsp;  &nbsp;  &nbsp; a)Manual
-&nbsp;  &nbsp;  &nbsp;  &nbsp; b)Select SSD partition to install OS
-&nbsp;  &nbsp;  &nbsp;  &nbsp; c)Format the partition and go back
-&nbsp;  &nbsp;  &nbsp;  &nbsp; d)Select Guided partitioning
+10)Enter user name and password<br />
+11)Select partition type<br />
+&nbsp;  &nbsp;  &nbsp;  &nbsp; a)Manual<br />
+&nbsp;  &nbsp;  &nbsp;  &nbsp; b)Select SSD partition to install OS<br />
+&nbsp;  &nbsp;  &nbsp;  &nbsp; c)Format the partition and go back<br />
+&nbsp;  &nbsp;  &nbsp;  &nbsp; d)Select Guided partitioning<br />
 {{< figure src="/img/GuidedPartition.jpg" title="" >}}
-&nbsp;  &nbsp;  &nbsp;  &nbsp; e)Select free space from external drive to mount it -à Mostly followed at 1st time installation , don’t &nbsp;  &nbsp;  &nbsp;  &nbsp; follow if you are updating OS in SSD and don’t want to lose data from external drive
+&nbsp;  &nbsp;  &nbsp;  &nbsp; e)Select free space from external drive to mount it -à Mostly followed at 1st time installation , don’t follow if you are updating OS in SSD and don’t want to lose data from external drive<br />
 {{< figure src="/img/ExternalFreespace.jpg" title="" >}}
 
