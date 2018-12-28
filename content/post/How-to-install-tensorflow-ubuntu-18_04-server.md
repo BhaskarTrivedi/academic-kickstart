@@ -48,7 +48,7 @@ caption = ""
 .<br/>
 &nbsp;  &nbsp;  &nbsp;  - possible error<br/>
 &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  - mkl-random 1.0.1 requires cython, which is not installed.<br/>
-&nbsp;  &nbsp;  &nbsp;  - Install cython
+&nbsp;  &nbsp;  &nbsp;  - Install cython<br/>
 &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  - pip install --upgrade pip<br/>
 &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  - pip install cython<br/>
 7. Verify Tensorflow installation.<br/>
