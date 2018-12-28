@@ -42,6 +42,39 @@ caption = ""
 &nbsp;  &nbsp;  &nbsp;  &nbsp; c)Format the partition and go back<br />
 &nbsp;  &nbsp;  &nbsp;  &nbsp; d)Select Guided partitioning<br />
 {{< figure src="/img/GuidedPartition.jpg" title="" >}}
-&nbsp;  &nbsp;  &nbsp;  &nbsp; e)Select free space from external drive to mount it -à Mostly followed at 1st time installation , don’t follow if you are updating OS in SSD and don’t want to lose data from external drive<br />
+&nbsp;  &nbsp;  &nbsp;  &nbsp; e)Select free space from external drive to mount it Mostly followed at 1st time installation , don’t follow if you are updating OS in SSD and don’t want to lose data from external drive<br />
 {{< figure src="/img/ExternalFreespace.jpg" title="" >}}
+&nbsp;  &nbsp;  &nbsp;  &nbsp; f)Select space size to mount<br />
+{{< figure src="/img/externalsize.jpg" title="" >}}
+&nbsp;  &nbsp;  &nbsp;  &nbsp; g)Select done setting up the partition<br />
+{{< figure src="/img/donepatition.jpg" title="" >}}
+&nbsp;  &nbsp;  &nbsp;  &nbsp; h)Select finish partitioning and write changes to disk<br />
+{{< figure src="/img/finishpartition.jpg" title="" >}}
+12) Install Unity <br />
+&nbsp;  &nbsp;  &nbsp;  &nbsp; a)sudo apt update<br />
+&nbsp;  &nbsp;  &nbsp;  &nbsp; b)sudo apt install ubuntu-unity-desktop<br />
+&nbsp;  &nbsp;  &nbsp;  &nbsp; c)sudo shutdown -r now<br />
+13)Install the NVIDIA display driver <br />
+&nbsp;  &nbsp;  &nbsp;  &nbsp; a)sudo add-apt-repository ppa:graphics-drivers/ppa<br />
+&nbsp;  &nbsp;  &nbsp;  &nbsp; b)sudo ubuntu-drivers devices<br />
+&nbsp;  &nbsp;  &nbsp;  &nbsp; c)Check recommended version which need to install<br />
+&nbsp;  &nbsp;  &nbsp;  &nbsp; d)sudo ubuntu-drivers autoinstall<br />
+&nbsp;  &nbsp;  &nbsp;  &nbsp; e)sudo shutdown -r now<br />
+&nbsp;  &nbsp;  &nbsp;  &nbsp; f)nvidia-smi<br />
+14)Create New sudo user <br />
+&nbsp;  &nbsp;  &nbsp;  &nbsp; a)Sudo adduser username<br />
+&nbsp;  &nbsp;  &nbsp;  &nbsp; b)Sudo usermod -aG sudo username<br />
+&nbsp;  &nbsp;  &nbsp;  &nbsp; c)Test sudo access<br />
+&nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp; A)su – username<br />
+&nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp; B)sudo whoami<br />
+15) Troubshoot If got error msg “PKCS#7 signature not signed with a trusted key<br />
+&nbsp;  &nbsp;  &nbsp;  &nbsp; a)Remove nvidia completely using purges/ppa<br />
+&nbsp;  &nbsp;  &nbsp;  &nbsp; b)sudo apt remove nvidia-*<br />
+&nbsp;  &nbsp;  &nbsp;  &nbsp; c)sudo apt purge nvidia*<br />
+&nbsp;  &nbsp;  &nbsp;  &nbsp; d)sudo apt autoremove<br />
+&nbsp;  &nbsp;  &nbsp;  &nbsp; e)sudo apt autoclean<br />
+&nbsp;  &nbsp;  &nbsp;  &nbsp; f)sudo apt-get remove --purge libnvidia-compute-XXX:XXXX<br />
+&nbsp;  &nbsp;  &nbsp;  &nbsp; g)sudo apt-get remove --purge libnvidia-compute-XXX<br />
+&nbsp;  &nbsp;  &nbsp;  &nbsp; h)Make sudo dpkg -l | grep nvidia return empty<br />
+&nbsp;  &nbsp;  &nbsp;  &nbsp; i)Install nvidia driver using autoinstall describe in step 13<br />
 
