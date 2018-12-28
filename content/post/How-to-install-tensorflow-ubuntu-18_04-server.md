@@ -52,7 +52,7 @@ caption = ""
 &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  - pip install --upgrade pip<br/>
 &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  - pip install cython<br/>
 7. Verify Tensorflow installation.<br/>
-&nbsp;  &nbsp;  &nbsp;  - python
-&nbsp;  &nbsp;  &nbsp;  - import tensorflow
-&nbsp;  &nbsp;  &nbsp;  - If installtion fail it will throw some error msg.
+&nbsp;  &nbsp;  &nbsp;  - python<br/>
+&nbsp;  &nbsp;  &nbsp;  - import tensorflow<br/>
+&nbsp;  &nbsp;  &nbsp;  - If installtion fail it will throw some error msg.<br/>
 
