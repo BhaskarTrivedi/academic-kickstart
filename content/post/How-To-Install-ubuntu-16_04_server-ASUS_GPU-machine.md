@@ -31,3 +31,17 @@ caption = ""
 {{< figure src="/img/ubuntu_1604_28.JPG" title="" >}}
 4)Go to bios and keep USB drive (boot medium) at priority<br />
 5)Save and exit<br />
+6)Select Install with the HWE kernel<br />
+{{< figure src="/img/ubuntu_1604_1.JPG" title="" >}}
+7)Select Install ubuntu server<br />
+{{< figure src="/img/ubuntu_1604_2.JPG" title="" >}}
+8)Select all required option like language, country etc to next screen<br />
+9)Enter host Name<br />
+{{< figure src="/img/ubuntu_1604_3.JPG" title="" >}}
+10)Enter user name and password<br />
+{{< figure src="/img/ubuntu_1604_4.JPG" title="" >}}
+11)Unmount partition (These steps are for fresh installation from scratch, don’t follow if you don’t want to format your data)<br />
+{{< figure src="/img/ubuntu_1604_5.JPG" title="" >}}
+12)Select manual partition<br />
+13)Select partition and create new partition<br />
+{{< figure src="/img/ubuntu_1604_6.JPG" title="" >}}
