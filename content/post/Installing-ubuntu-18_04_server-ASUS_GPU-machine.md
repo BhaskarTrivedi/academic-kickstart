@@ -56,11 +56,12 @@ caption = ""
 &nbsp;  &nbsp;  &nbsp;  &nbsp; c)sudo shutdown -r now<br />
 13)Install the NVIDIA display driver <br />
 &nbsp;  &nbsp;  &nbsp;  &nbsp; a)sudo add-apt-repository ppa:graphics-drivers/ppa<br />
-&nbsp;  &nbsp;  &nbsp;  &nbsp; b)sudo ubuntu-drivers devices<br />
-&nbsp;  &nbsp;  &nbsp;  &nbsp; c)Check recommended version which need to install<br />
-&nbsp;  &nbsp;  &nbsp;  &nbsp; d)sudo ubuntu-drivers autoinstall<br />
-&nbsp;  &nbsp;  &nbsp;  &nbsp; e)sudo shutdown -r now<br />
-&nbsp;  &nbsp;  &nbsp;  &nbsp; f)nvidia-smi<br />
+&nbsp;  &nbsp;  &nbsp;  &nbsp; b)sudo apt-get update<br />
+&nbsp;  &nbsp;  &nbsp;  &nbsp; c)sudo ubuntu-drivers devices<br />
+&nbsp;  &nbsp;  &nbsp;  &nbsp; d)Check recommended version which need to install<br />
+&nbsp;  &nbsp;  &nbsp;  &nbsp; e)sudo ubuntu-drivers autoinstall<br />
+&nbsp;  &nbsp;  &nbsp;  &nbsp; f)sudo shutdown -r now<br />
+&nbsp;  &nbsp;  &nbsp;  &nbsp; g)nvidia-smi<br />
 14)Create New sudo user <br />
 &nbsp;  &nbsp;  &nbsp;  &nbsp; a)Sudo adduser username<br />
 &nbsp;  &nbsp;  &nbsp;  &nbsp; b)Sudo usermod -aG sudo username<br />
