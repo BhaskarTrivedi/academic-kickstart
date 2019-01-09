@@ -94,8 +94,8 @@ caption = ""
 &nbsp;  &nbsp;  &nbsp;  &nbsp; e)sudo shutdown -r now<br />
 &nbsp;  &nbsp;  &nbsp;  &nbsp; f)nvidia-smi<br />
 33)Create New sudo user <br />
-&nbsp;  &nbsp;  &nbsp;  &nbsp; a)Sudo adduser username<br />
-&nbsp;  &nbsp;  &nbsp;  &nbsp; b)Sudo usermod -aG sudo username<br />
+&nbsp;  &nbsp;  &nbsp;  &nbsp; a)sudo adduser username<br />
+&nbsp;  &nbsp;  &nbsp;  &nbsp; b)sudo usermod -aG sudo username<br />
 &nbsp;  &nbsp;  &nbsp;  &nbsp; c)Test sudo access<br />
 &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp; A)su – username<br />
 &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp; B)sudo whoami<br />
