@@ -45,12 +45,12 @@ caption = ""
 &nbsp;  &nbsp;  &nbsp;  - sudo bash Anaconda3-2018.12-Linux-x86_64.sh.<br/>
 &nbsp;  &nbsp;  &nbsp;  - sudo shutdown -r now.<br/>
 5. Create virtual env.<br/>
-&nbsp;  &nbsp;  &nbsp;  - conda create -n worldmodel python=3.6.8 numpy=1.13.3<br/>
+&nbsp;  &nbsp;  &nbsp;  - conda create -n worldmodel python=3.5.4 numpy=1.13.3<br/>
 &nbsp;  &nbsp;  &nbsp;  - logout user(sometime required)<br/>
 &nbsp;  &nbsp;  &nbsp;  - source activate worldmodel<br/>
 6. install tensorflow.<br/>
 &nbsp;  &nbsp;  &nbsp;  - pip install --upgrade pip<br/>
-&nbsp;  &nbsp;  &nbsp;  - pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.12.0-cp36-cp36m-linux_x86_64.whl
+&nbsp;  &nbsp;  &nbsp;  - pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.12.0-cp35-cp35m-linux_x86_64.whl
 .<br/>
 &nbsp;  &nbsp;  &nbsp;  - possible error<br/>
 &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  - mkl-random 1.0.1 requires cython, which is not installed.<br/>
