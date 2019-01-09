@@ -36,19 +36,19 @@ caption = ""
 &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  - sudo sh cuda_9.0.176.3_linux.run<br/>
 &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  - [download patch 4](https://developer.nvidia.com/cuda-90-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1704&target_type=runfilelocal)<br/>
 &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  - sudo sh cuda_9.0.176.4_linux.run<br/>
-set cuda path variable<br/>
+3.set cuda path variable<br/>
 &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  - sudo cp ~/.bashrc ~/.bashrc_backup<br/>
 &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  - sudo nano ~/.bashrc<br/>
 &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  - export PATH="/usr/local/cuda-9.0/bin:$PATH"<br/>
 &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  - export LD_LIBRARY_PATH="/usr/local/cuda-9.0/lib64:$LD_LIBRARY_PATH"<br/>
-3. Install required cuDNN SDK for cuda 9.0.<br/>
-4. [Download Anaconda and install Anaconda3-2018.12-Linux-x86_64.](https://www.anaconda.com/download/#linux)<br/>
+4. Install required cuDNN SDK for cuda 9.0.<br/>
+5. [Download Anaconda and install Anaconda3-2018.12-Linux-x86_64.](https://www.anaconda.com/download/#linux)<br/>
 &nbsp;  &nbsp;  &nbsp;  - sudo bash Anaconda3-2018.12-Linux-x86_64.sh.<br/>
 &nbsp;  &nbsp;  &nbsp;  - sudo shutdown -r now.<br/>
-5. Create virtual env.<br/>
+6. Create virtual env.<br/>
 &nbsp;  &nbsp;  &nbsp;  - conda create -n worldmodel python=3.5.4 numpy=1.13.3<br/>
 &nbsp;  &nbsp;  &nbsp;  - source activate worldmodel<br/>
-6. install tensorflow.<br/>
+7. install tensorflow.<br/>
 &nbsp;  &nbsp;  &nbsp;  - pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.12.0-cp35-cp35m-linux_x86_64.whl
 .<br/>
 &nbsp;  &nbsp;  &nbsp;  - possible error<br/>
@@ -56,7 +56,7 @@ set cuda path variable<br/>
 &nbsp;  &nbsp;  &nbsp;  - Install cython<br/>
 &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  - pip install --upgrade pip<br/>
 &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  - pip install cython<br/>
-7. Verify Tensorflow installation.<br/>
+8. Verify Tensorflow installation.<br/>
 &nbsp;  &nbsp;  &nbsp;  - python<br/>
 &nbsp;  &nbsp;  &nbsp;  - import tensorflow<br/>
 &nbsp;  &nbsp;  &nbsp;  - If installtion fail it will throw some error msg.<br/>
