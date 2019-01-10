@@ -25,6 +25,10 @@ advancemenuimg=""
 image = "" 
 caption = "" 
 +++
+Enviornment Specification<br/>
+OS : Ubuntu 16.04 server<br/>
+Python version : 3.5.4<br/>
+World Model Description : https://worldmodels.github.io/<br/>  
 
 1. install openai gym<br/>
 &nbsp;  &nbsp;  &nbsp;  &nbsp; -pip install gym==0.9.4<br/>
