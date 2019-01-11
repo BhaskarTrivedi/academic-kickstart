@@ -13,7 +13,7 @@ list_format = 2
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["Installation","Tensorflow"]
+tags = ["Development"]
 
 
 #Optional featured image (relative to static/img/ folder).
