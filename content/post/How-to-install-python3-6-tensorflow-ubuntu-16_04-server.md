@@ -51,7 +51,7 @@ caption = ""
 6. install tensorflow.<br/>
 &nbsp;  &nbsp;  &nbsp;  - pip install --upgrade pip<br/>
 &nbsp;  &nbsp;  &nbsp;  - pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/windows/gpu/tensorflow_gpu-1.12.0-cp36-cp36m-win_amd64.whl<br/>
-&nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; - tensorflow_gpu-1.12.0-cp36-cp36m-win_amd64.whl is not a supported wheel on this platform.
+&nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; - tensorflow_gpu-1.12.0-cp36-cp36m-win_amd64.whl is not a supported wheel on this platform.<br/>
 &nbsp;  &nbsp;  &nbsp; - If you received not supported wheel error try pip install tensorflow , worked for me , should also work for you.<br/>
 &nbsp;  &nbsp;  &nbsp;  - possible error<br/>
 &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  - mkl-random 1.0.1 requires cython, which is not installed.<br/>
