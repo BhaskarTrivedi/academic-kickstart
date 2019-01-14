@@ -60,7 +60,7 @@ caption = ""
 &nbsp;  &nbsp;  &nbsp; - Download tensorflow_gpu-1.12.0-cp35-cp35m-linux_x86_64.whl<br/>
 &nbsp;  &nbsp;  &nbsp; - mv tensorflow_gpu-1.12.0-cp35-cp35m-linux_x86_64.whl tensorflow_gpu-1.12.0-cp36-cp36m-linux_x86_64.whl.<br/>
 &nbsp;  &nbsp;  &nbsp; - pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.12.0-cp36-cp36m-linux_x86_64.whl <br/>
-&nbsp;  &nbsp;  &nbsp; - I have kept renamed whl file to my /home/user/Download directory<br/>
+&nbsp;  &nbsp;  &nbsp; - I have kept renamed whl file to my /home/user/Download directory and executed pip install also from Download directory<br/>
 &nbsp;  &nbsp;  &nbsp;  - possible error<br/>
 &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  - mkl-random 1.0.1 requires cython, which is not installed.<br/>
 &nbsp;  &nbsp;  &nbsp;  - Install cython<br/>
