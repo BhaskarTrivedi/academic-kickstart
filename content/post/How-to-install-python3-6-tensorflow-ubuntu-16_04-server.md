@@ -52,13 +52,21 @@ caption = ""
 &nbsp;  &nbsp;  &nbsp;  - pip install --upgrade pip<br/>
 &nbsp;  &nbsp;  &nbsp;  - pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/windows/gpu/tensorflow_gpu-1.12.0-cp36-cp36m-win_amd64.whl<br/>
 &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; - tensorflow_gpu-1.12.0-cp36-cp36m-win_amd64.whl is not a supported wheel on this platform.<br/>
-&nbsp;  &nbsp;  &nbsp; - If you received not supported wheel error try pip install tensorflow , worked for me , should also work for you.<br/>
+&nbsp;  &nbsp;  &nbsp; - If you received not supported wheel error try <br/>
+&nbsp;  &nbsp;  &nbsp; - pip install tensorflow , worked for me , but installed only GPU support.<br/>
+&nbsp;  &nbsp;  &nbsp; - pip install tensorflow-gpu , installed gpu support but downgrade python to 2.7.<br/>
+7. To install GPU support with python 3.6
+&nbsp;  &nbsp;  &nbsp; - source deactivate unityMLAgent<br/> 
+&nbsp;  &nbsp;  &nbsp; - Download tensorflow_gpu-1.12.0-cp35-cp35m-linux_x86_64.whl<br/>
+&nbsp;  &nbsp;  &nbsp; - mv tensorflow_gpu-1.12.0-cp35-cp35m-linux_x86_64.whl tensorflow_gpu-1.12.0-cp36-cp36m-linux_x86_64.whl.<br/>
+&nbsp;  &nbsp;  &nbsp; - pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.12.0-cp36-cp36m-linux_x86_64.whl <br/>
+&nbsp;  &nbsp;  &nbsp; - I have kept renamed whl file to my /home/user/Download directory<br/>
 &nbsp;  &nbsp;  &nbsp;  - possible error<br/>
 &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  - mkl-random 1.0.1 requires cython, which is not installed.<br/>
 &nbsp;  &nbsp;  &nbsp;  - Install cython<br/>
 &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  - pip install --upgrade pip<br/>
 &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  - pip install cython<br/>
-7. Verify Tensorflow installation.<br/>
+8. Verify Tensorflow installation.<br/>
 &nbsp;  &nbsp;  &nbsp;  - python<br/>
 &nbsp;  &nbsp;  &nbsp;  - import tensorflow<br/>
 &nbsp;  &nbsp;  &nbsp;  - If installtion fail import will throw some error msg.<br/>
