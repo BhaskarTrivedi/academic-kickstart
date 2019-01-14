@@ -1,5 +1,5 @@
 +++
-title = "How to install Tensorflow on ubuntu 16.04 server with GEForce RTX 2080" 
+title = "How to Install NoMachine and connect remotely to server" 
 date = 2018-12-28T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -22,7 +22,7 @@ image = ""
 caption = "" 
 +++
 1. [Download nomachine](https://www.nomachine.com/download).<br/>
-2. Install nomachine<br/>
+2. Install nomachine(Server and your local machine both)<br/>
 &nbsp;  &nbsp;  &nbsp; - On windows<br/>
 &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; - Run exe<br/>
 &nbsp;  &nbsp;  &nbsp; - On Ubuntu<br/>
