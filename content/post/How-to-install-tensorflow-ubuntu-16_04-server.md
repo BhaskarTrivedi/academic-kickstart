@@ -40,7 +40,7 @@ caption = ""
 &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  - sudo nano ~/.bashrc<br/>
 &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  - export PATH="/usr/local/cuda-9.0/bin:$PATH"<br/>
 &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  - export LD_LIBRARY_PATH="/usr/local/cuda-9.0/lib64:$LD_LIBRARY_PATH"<br/>
-3. Install required cuDNN SDK for cuda 9.0.<br/>
+3. Install required cuDNN SDK for cuda 9.0.(Currently tensorflow support cuDNN v7.0 for CUDA 9.0)<br/>
 4. [Download Anaconda and install Anaconda3-2018.12-Linux-x86_64.](https://www.anaconda.com/download/#linux)<br/>
 &nbsp;  &nbsp;  &nbsp;  - sudo bash Anaconda3-2018.12-Linux-x86_64.sh.<br/>
 &nbsp;  &nbsp;  &nbsp;  - sudo shutdown -r now.<br/>
