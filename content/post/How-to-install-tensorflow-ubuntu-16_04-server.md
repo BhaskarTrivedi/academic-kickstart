@@ -23,7 +23,7 @@ caption = ""
 +++
 1. [Install cuda 9.0 without nvidia driver](https://developer.nvidia.com/cuda-90-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1604&target_type=runfilelocal).<br/>
 &nbsp;  &nbsp;  &nbsp;  - sudo chmod +x cuda_9.0.176_384.81_linux.run<br/>
-&nbsp;  &nbsp;  &nbsp;  - sudo ./cuda_9.0.176_384.81_linux.run --extract=/home/username/Dirname<br/>
+&nbsp;  &nbsp;  &nbsp;  - sudo ./cuda_9.0.176_384.81_linux.run - -extract=/home/username/Dirname<br/>
 &nbsp;  &nbsp;  &nbsp;  - sudo ./cuda-linux.9.0.176-22781540.run<br/>
 &nbsp;  &nbsp;  &nbsp;  - sudo ./cuda-samples.9.0.176-22781540-linux.run<br/>
 &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  - install patch 1<br/>
