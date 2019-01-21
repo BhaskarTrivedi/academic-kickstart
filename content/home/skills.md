@@ -27,6 +27,20 @@ weight = 7
   name = "C"
   description = "90%"
   
+  [[feature]]
+  name = "C++"
+  description = "90%"
+  
+  [[feature]]
+  icon = "python"
+  icon_pack = "fab"
+  name = "Python"
+  description = "70%"
+  
+   [[feature]]
+  name = "Tensorflow"
+  description = "70%"
+  
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
