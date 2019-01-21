@@ -64,7 +64,7 @@ enableGitInfo = false
 
   # Details for the Contact Widget
   email = "test@example.org"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
+  address = "ERB 405, University of Texas, Arlington, USA"
   office_hours = """
   Monday 02:00 to 04:00 PM\\
   Wednesday 02:00 to 04:00 PM\\
