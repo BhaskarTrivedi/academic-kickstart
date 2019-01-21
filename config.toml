@@ -66,12 +66,11 @@ enableGitInfo = false
   email = "test@example.org"
   address = "Building 1 Room 1, Stanford University, California, 90210, USA"
   office_hours = """
-  Monday 10:00 to 13:00\\
-  Wednesday 09:00 to 10:00\\
+  Monday 02:00 to 04:00 PM\\
+  Wednesday 02:00 to 04:00 PM\\
   Otherwise email to book an appointment
   """
-  phone = "888 888 88 88"
-  skype = "echo123"
+  
   telegram = ""
   keybase = ""  # Your keybase.io username.
 
@@ -336,9 +335,9 @@ enableGitInfo = false
   weight = 4
 
 [[menu.main]]
-  name = "Tutorials"
-  url = "/tutorial/"
-  weight = 5
+  #name = "Tutorials"
+  #url = "/tutorial/"
+  #weight = 5
 
 [[menu.main]]
   name = "Contact"
