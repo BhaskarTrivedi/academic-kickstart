@@ -28,6 +28,8 @@ weight = 7
   description = "90%"
   
   [[feature]]
+  icon = "plus-square"
+  icon_pack = "fas"
   name = "C++"
   description = "90%"
   
@@ -38,6 +40,8 @@ weight = 7
   description = "70%"
   
    [[feature]]
+  icon = "wind"
+  icon_pack = "fas"
   name = "Tensorflow"
   description = "70%"
   
