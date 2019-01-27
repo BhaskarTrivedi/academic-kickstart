@@ -1,5 +1,5 @@
 +++
-title = "Recommended System" 
+title = "Recommender System" 
 date = 2019-01-26T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -25,4 +25,4 @@ advancemenuimg=""
 image = "" 
 caption = "" 
 +++
-Recommended System
+Recommender System
