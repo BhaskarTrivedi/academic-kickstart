@@ -32,6 +32,7 @@ Recommender System / Machine is developed to suggest end user with the product (
 
 Dataset <br/>
 Dataset primary refer as a collection of similar type of index data which can be used for special purposes. With time and technology data set are becoming huge and tradition approach (normal SQL queries) is not sufficient to store and retrieve data from data set. To tackle this situation big data come into picture. It helps with fast data retrieval with proper indexing. The first step towards developing any recommender system is to finalize data set. According to data set we can plan our approach and decide which feature is important to create our recommender system. The Purpose of this project to learn by implementation and later look for something bigger picture I will start with movielens data set. Click here to visit [movielens](https://grouplens.org/datasets/movielens/).
+To explore more dataset [click here](https://www.kdnuggets.com/2016/02/nine-datasets-investigating-recommender-systems.html).
 
 
 
