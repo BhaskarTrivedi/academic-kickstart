@@ -17,6 +17,10 @@ tags = ["Project"]
 
 # Step to follow.
 
+# Links (optional).
+url_pdf = "files/RecommendedSystem.pdf"
+
+
 advancemenuimg=""
 
 
