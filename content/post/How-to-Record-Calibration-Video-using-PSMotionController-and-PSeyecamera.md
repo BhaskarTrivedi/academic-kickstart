@@ -1,5 +1,5 @@
 +++
-title = "How to Record Calibration Video using PSMotionController and PSeyecamera 
+title = "How to Record Calibration Video using PSMotionController and PSeyecamera"
 date = 2018-12-21T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
