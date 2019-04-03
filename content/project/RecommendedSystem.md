@@ -41,32 +41,66 @@ We have different Machine learning algorithm which help with training and classi
 <br/>
 <br/>
 Project specific. <br/>
-Naïve Based classification assume each feature (in many literatures also refer as dimension are independent of each other). It is simple probability-based classifier. It uses Bayes probability theorem to solve classification problem.
-Mathematical representation of Bayes Theorem 
-P(A|B) = P(B|A) * P(A) / P(B)
-If we consider movie data set the formula will become 
-P(y|X) = P(X|y) * P(Y) / P(X)
-According to naïve bayes each feature is independent of each other 
-P(y|x1,x2,…..xn ) = P(x1|y)P(x2|y)..P(xn|y) P(y) /(P(x1)P(x2)…..P(xn) 
-Visit https://nlp.stanford.edu/IR-book/pdf/13bayes.pdf for detailed clarification.
-Implementation Details.
-Class CNaiveBayes.py
-Responsible to perform Naïve classification and return probability-based class
-Variable description
-ClassF : store classfrequency/ Probablity
-queryClassPrabablity : store  Probablity of class given term
-ClassTermCount : to store each class has how may total term
-TermClassFrequency : to store count of term in each class
+Naïve Based classification assume each feature (in many literatures also refer as dimension are independent of each other). It is simple probability-based classifier. It uses Bayes probability theorem to solve classification problem.<br/>
+Mathematical representation of Bayes Theorem <br/>
+P(A|B) = P(B|A) * P(A) / P(B)<br/>
+If we consider movie data set the formula will become <br/>
+P(y|X) = P(X|y) * P(Y) / P(X)<br/>
+According to naïve bayes each feature is independent of each other <br/>
+P(y|x1,x2,…..xn ) = P(x1|y)P(x2|y)..P(xn|y) P(y) /(P(x1)P(x2)…..P(xn) <br/>
+Visit https://nlp.stanford.edu/IR-book/pdf/13bayes.pdf for detailed clarification.<br/>
+Implementation Details.<br/>
+Class CNaiveBayes.py<br/>
+Responsible to perform Naïve classification and return probability-based class<br/>
+Variable description<br/>
+ClassF : store classfrequency/ Probablity<br/>
+queryClassPrabablity : store  Probablity of class given term<br/>
+ClassTermCount : to store each class has how may total term<br/>
+TermClassFrequency : to store count of term in each class<br/>
 
-Method Description 
-Tokenize : create token from the string description and remove stop word(common word)
-Initialize : Perform Basic Initialization Operation Reading data, create token and initialize each class variable.
+Method Description <br/>
+Tokenize : create token from the string description and remove stop word(common word)<br/>
 
-CalculateClassProbability : Calculate probability of each class based on data.
-CalculateTermProbablity : Predict probability of term based on naïve bayes 
+    def tokenize(self, description):<br/>
+        if pd.isnull(description):<br/>
+            return []<br/>
+        else:<br/>
+            terms = description.lower().split()<br/>
+            # remove stop word<br/>
+            filtered = [word for word in terms if not word in stopwords.words('english')]<br/>
+            return filtered<br/>
+
+
+Initialize : Perform Basic Initialization Operation Reading data, create token and initialize each class variable.<br/>
+
+          for term in u_term:
+                #updating count of each term in posting(document)
+                self.ClassTermCount[current_class].add(term)
+                self.TermClassFrequency[term][current_class] = self.TermClassFrequency[term].get(current_class,0) + u_count[term_index]
+                term_index += 1
+
+CalculateClassProbability : Calculate probability of each class based on data.<br/>
+
+          for key in self.ClassF:
+            self.ClassF[key] = self.ClassF[key] / self.totalDocument
+            
+CalculateTermProbablity : Predict probability of term based on naïve bayes <br/>
+
+        for key in self.ClassF:
+            #print((self.ClassTermCount[key]))
+            currentProb = self.ClassF[key]
+            #with each term loop will expand to P(x1|y)P(x2|y)..P(xn|y) P(y)
+            for term in terms:
+                currentProb = currentProb * (( self.TermClassFrequency[term].get(key,0)+1) /( len(self.ClassTermCount[key]) + len( self.unique_terms)))
+
+            self.queryClassPrabablity[key] = currentProb
+            print(currentProb)
+            if currentProb > probablity:
+                probablity = currentProb
+                className = key
 
 <br/>
-For Code and Implementation detail visit Git hub<br/>
+For Code and Implementation detail visit Git hub<br/><br/>
 
 Dataset <br/>
 Dataset primary refer as a collection of similar type of index data which can be used for special purposes. With time and technology data set are becoming huge and tradition approach (normal SQL queries) is not sufficient to store and retrieve data from data set. To tackle this situation big data come into picture. It helps with fast data retrieval with proper indexing. The first step towards developing any recommender system is to finalize data set. According to data set we can plan our approach and decide which feature is important to create our recommender system. Click here to visit [movielens](https://grouplens.org/datasets/movielens/).
