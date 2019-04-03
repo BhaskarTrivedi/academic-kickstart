@@ -41,24 +41,25 @@ We have different Machine learning algorithm which help with training and classi
 <br/>
 <br/>
 Project specific. <br/>
-Naïve Based classification assume each feature (in many literatures also refer as dimension are independent of each other). It is simple probability-based classifier. It uses Bayes probability theorem to solve classification problem.<br/>
-Mathematical representation of Bayes Theorem <br/>
-P(A|B) = P(B|A) * P(A) / P(B)<br/>
+Naïve Based classification<br/><br/>
+Naïve Based classification assume each feature (in many literatures also refer as dimension are independent of each other). It is simple probability-based classifier. It uses Bayes probability theorem to solve classification problem.<br/><br/>
+Mathematical representation of Bayes Theorem <br/><br/>
+P(A|B) = P(B|A) * P(A) / P(B)<br/><br/>
 If we consider movie data set the formula will become <br/>
-P(y|X) = P(X|y) * P(Y) / P(X)<br/>
+P(y|X) = P(X|y) * P(Y) / P(X)<br/><br/>
 According to naïve bayes each feature is independent of each other <br/>
-P(y|x1,x2,…..xn ) = P(x1|y)P(x2|y)..P(xn|y) P(y) /(P(x1)P(x2)…..P(xn) <br/>
-Visit https://nlp.stanford.edu/IR-book/pdf/13bayes.pdf for detailed clarification.<br/>
+P(y|x1,x2,…..xn ) = P(x1|y)P(x2|y)..P(xn|y) P(y) /(P(x1)P(x2)…..P(xn) <br/><br/>
+Visit https://nlp.stanford.edu/IR-book/pdf/13bayes.pdf for detailed clarification.<br/><br/>
 Implementation Details.<br/>
 Class CNaiveBayes.py<br/>
-Responsible to perform Naïve classification and return probability-based class<br/>
+Responsible to perform Naïve classification and return probability-based class<br/><br/>
 Variable description<br/>
 ClassF : store classfrequency/ Probablity<br/>
 queryClassPrabablity : store  Probablity of class given term<br/>
 ClassTermCount : to store each class has how may total term<br/>
 TermClassFrequency : to store count of term in each class<br/>
 
-Method Description <br/>
+Method Description <br/><br/>
 Tokenize : create token from the string description and remove stop word(common word)<br/>
 
     def tokenize(self, description):
