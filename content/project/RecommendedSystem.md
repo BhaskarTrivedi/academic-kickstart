@@ -74,7 +74,7 @@ Tokenize : create token from the string description and remove stop word(common 
 Initialize : Perform Basic Initialization Operation Reading data, create token and initialize each class variable.<br/>
 
           for term in u_term:
-                #updating count of each term in posting(document)
+                #updating count of each term 
                 self.ClassTermCount[current_class].add(term)
                 self.TermClassFrequency[term][current_class] = self.TermClassFrequency[term].get(current_class,0) + u_count[term_index]
                 term_index += 1
