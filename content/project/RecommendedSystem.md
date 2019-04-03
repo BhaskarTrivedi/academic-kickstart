@@ -39,14 +39,12 @@ Classification problem can be defined as “deciding class for unknown data base
 <br/>
 We have different Machine learning algorithm which help with training and classification problem. Logistic Regression, naïve based classifier, Support Vector Machine (SVM), Decision Tree, Neural Network and many more. Each algorithm has their own specification and they work better for specific data set. We don’t have any general algorithm which work better for all data set. 
 <br/>
-Support Vector Machine is a supervised machine learning algorithm which can be used for classification. It analyzes n dimensional data and performed binary or multi class classification based on available classes in training data sets. 
+
 <br/>
-Linear classification separate n dimension data using hyperplane and maximize the margin to reduce error for any known dataset.
-Non linear classification first map n dimensional data set to higher dimension and then separates it using classifier. For non linear classification different type of kernel is available like polynomial and exponential kernel.  
+
 <br/>
 Project specific. <br/>
-To perform classification problem, I needed dataset which should have dimensionality for classification problem. While planning and developing this project I was not just thinking about writing some line of code but also, I was analyzing data and trying to figure it these data has enough information to perform classification problem. I am working on Kaggle movie data set and I didn’t found feature that can be used for classification. One thought come to mind using user review and use it for classification but reject this idea as user review can be good for recommendation system but can’t be utilize for classification as user tends to give very vague statement which can apply to all class.  To solve this issue an idea came to my mind to add dimensionality and weightage based on tag and finale class. Whole idea behind this any movie which we categories as Action also has its share of romance, fantasy and comedy into it. Every movie has element of some other feature but overall it is categorized to one specific category based on specific feature weightage.  So, I added some feature and created training data set to train my classifier. 
-{{< figure src="/img/classification.JPG" title="" >}}<br />
+
 <br/>
 For Code and Implementation detail visit Git hub<br/>
 
