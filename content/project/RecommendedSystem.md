@@ -39,11 +39,31 @@ Classification problem can be defined as “deciding class for unknown data base
 <br/>
 We have different Machine learning algorithm which help with training and classification problem. Logistic Regression, naïve based classifier, Support Vector Machine (SVM), Decision Tree, Neural Network and many more. Each algorithm has their own specification and they work better for specific data set. We don’t have any general algorithm which work better for all data set. 
 <br/>
-
-<br/>
-
 <br/>
 Project specific. <br/>
+Naïve Based classification assume each feature (in many literatures also refer as dimension are independent of each other). It is simple probability-based classifier. It uses Bayes probability theorem to solve classification problem.
+Mathematical representation of Bayes Theorem 
+P(A|B) = P(B|A) * P(A) / P(B)
+If we consider movie data set the formula will become 
+P(y|X) = P(X|y) * P(Y) / P(X)
+According to naïve bayes each feature is independent of each other 
+P(y|x1,x2,…..xn ) = P(x1|y)P(x2|y)..P(xn|y) P(y) /(P(x1)P(x2)…..P(xn) 
+Visit https://nlp.stanford.edu/IR-book/pdf/13bayes.pdf for detailed clarification.
+Implementation Details.
+Class CNaiveBayes.py
+Responsible to perform Naïve classification and return probability-based class
+Variable description
+ClassF : store classfrequency/ Probablity
+queryClassPrabablity : store  Probablity of class given term
+ClassTermCount : to store each class has how may total term
+TermClassFrequency : to store count of term in each class
+
+Method Description 
+Tokenize : create token from the string description and remove stop word(common word)
+Initialize : Perform Basic Initialization Operation Reading data, create token and initialize each class variable.
+
+CalculateClassProbability : Calculate probability of each class based on data.
+CalculateTermProbablity : Predict probability of term based on naïve bayes 
 
 <br/>
 For Code and Implementation detail visit Git hub<br/>
