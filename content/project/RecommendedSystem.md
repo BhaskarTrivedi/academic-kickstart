@@ -61,14 +61,14 @@ TermClassFrequency : to store count of term in each class<br/>
 Method Description <br/>
 Tokenize : create token from the string description and remove stop word(common word)<br/>
 
-    def tokenize(self, description):<br/>
-        if pd.isnull(description):<br/>
-            return []<br/>
-        else:<br/>
-            terms = description.lower().split()<br/>
-            # remove stop word<br/>
-            filtered = [word for word in terms if not word in stopwords.words('english')]<br/>
-            return filtered<br/>
+    def tokenize(self, description):
+        if pd.isnull(description):
+            return []
+        else:
+            terms = description.lower().split()
+            # remove stop word
+            filtered = [word for word in terms if not word in stopwords.words('english')]
+            return filtered
 
 
 Initialize : Perform Basic Initialization Operation Reading data, create token and initialize each class variable.<br/>
