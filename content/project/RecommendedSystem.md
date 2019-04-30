@@ -53,11 +53,27 @@ Cosine similarity<br/>
 Cosine similarity is one of way to measure similarity between two document or between document and query.<br/>
 Cos(d1,d2) = dot(d1,d2) / (||d1||*||d2||)<br/><br/>
 Query search algorithm<br/>
-  Calculate the term frequency<br/>
-  Calculate inverse document frequency<br/>
-  Create vector space model using tf-idf<br/>
-  Calculate similarity between document and query using cosine similarity<br/>
-  Retrieve document based on cosine similarity<br/>
+
+    Calculate the term frequency
+    Calculate inverse document frequency
+    Create vector space model using tf-idf
+    Calculate similarity between document and query using cosine similarity
+    Retrieve document based on cosine similarity
+    
+Implementation details<br/><br/>
+Calculating idf<br/>
+
+    def Calculate_Inverse_Document_Frequency(self,term):<br/>
+
+        #calculate idf for given term
+        #idf = log(Number of document / Number of document term appeared)
+        if term in self.dict:
+            return math.log(self.totalDocument/self.docF[term],2)
+        else:
+            return 0
+            
+ 
+
 
 
 
