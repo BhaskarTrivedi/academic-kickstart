@@ -62,7 +62,7 @@ Query search algorithm<br/>
     Retrieve document based on cosine similarity
     
 Implementation details<br/><br/>
-Calculating idf<br/>
+Calculating idf
 
     def Calculate_Inverse_Document_Frequency(self,term):
 
@@ -74,7 +74,7 @@ Calculating idf<br/>
             return 0
             
  Create Document Vector<br/>
- create tf-idf weight vector of query term for document<br/>
+ create tf-idf weight vector of query term for document
  
     def Make_Document_vector(self,query_token,id):
         unique_Q_terms = set(query_token)
@@ -92,7 +92,7 @@ Calculating idf<br/>
         return document_vector
         
 Create Query Vector<br/>
-create tf-idf weight vector of query term<br/>
+create tf-idf weight vector of query term
 
 
     def Make_Query_vector(self,query_token):
@@ -109,7 +109,7 @@ create tf-idf weight vector of query term<br/>
         return vector
         
 Calculate cosine similarity<br/>
-calculate cosign similarity of two tf-idf vector<br/>
+calculate cosign similarity of two tf-idf vector
 
 
     def Calculate_similarity(self,query_vec,doc_vec):
@@ -117,7 +117,7 @@ calculate cosign similarity of two tf-idf vector<br/>
         return dot(query_vec,doc_vec)/(norm(query_vec)*norm(doc_vec))
         
  Searching the query<br/>
- We perform cosine similarity between query and document space vector.<br/>
+ We perform cosine similarity between query and document space vector.
             
  
 
@@ -148,7 +148,7 @@ ClassTermCount : to store each class has how may total term<br/>
 TermClassFrequency : to store count of term in each class<br/>
 
 Method Description <br/><br/>
-Tokenize : create token from the string description and remove stop word(common word)<br/>
+Tokenize : create token from the string description and remove stop word(common word)
 
     def tokenize(self, description):
         if pd.isnull(description):
@@ -160,7 +160,7 @@ Tokenize : create token from the string description and remove stop word(common 
             return filtered
 
 
-Initialize : Perform Basic Initialization Operation Reading data, create token and initialize each class variable.<br/>
+Initialize : Perform Basic Initialization Operation Reading data, create token and initialize each class variable.
 
           for term in u_term:
                 #updating count of each term 
@@ -168,12 +168,12 @@ Initialize : Perform Basic Initialization Operation Reading data, create token a
                 self.TermClassFrequency[term][current_class] = self.TermClassFrequency[term].get(current_class,0) + u_count[term_index]
                 term_index += 1
 
-CalculateClassProbability : Calculate probability of each class based on data.<br/>
+CalculateClassProbability : Calculate probability of each class based on data.
 
           for key in self.ClassF:
             self.ClassF[key] = self.ClassF[key] / self.totalDocument
             
-CalculateTermProbablity : Predict probability of term based on naïve bayes <br/>
+CalculateTermProbablity : Predict probability of term based on naïve bayes
 
         for key in self.ClassF:
             #print((self.ClassTermCount[key]))
@@ -194,6 +194,59 @@ Accuracy measure from implementation<br/>
 Training Accuracy = 97.5%<br/>
 Test Accuracy = 35.0 %<br/>
 
+**Recommendation**<br/><br/>
+Recommendation is being used to suggest its user a product which he is most likely to be interested. Recommendation engine is developed based on user profile and product he liked in past.
+
+Recommendation engine method.
+
+    Content based recommendation
+    User Collabrative recommentation
+
+Content based recommendation<br/>
+In content based recommendation user get recommendation based on his selection about product in past. 
+
+User Collabrative recommendation<br/>
+In this approach first we calculate similarity between two user based on common item they liked. After calculation similarity we recommend product which is like bu=y most similar user to another user.
+
+    Pitem = Ʃ ( Rvi * Suv) / Ʃ (Suv)
+    Pitem = Predection of item
+    Rvi = user v rating to item i
+    Suv = similarity between user uv
+    
+Implementation details
+
+Create Model : To create matrix of user and item rating
+
+    def CreateModel(self):
+        self.totaluser = self.ratings.user_id.unique().shape[0]
+        self.totalmovie = self.ratings.movie_id.unique().shape[0]
+        self.item_matrix = np.zeros((self.totaluser+1, self.totalmovie))
+        #random generated data for end user
+        self.item_matrix[1, :] = np.random.randint(6, size=self.totalmovie)
+        #print(self.item_matrix[1, :])
+        for line in self.ratings.itertuples():
+            #print(line)
+            self.item_matrix[line[1] , line[2]-1 ] = line[3]
+
+Calculate similarity between user
+
+    def CalculateSimilarity(self):
+        self.usersimilarity = pairwise_distances(self.item_matrix, metric='cosine')
+        self.itemsimilarity = pairwise_distances(self.item_matrix.transpose(), metric='cosine')
+        
+Prediction of item 
+
+    def Predict(self, type='user'):
+        if type == 'user':
+            mean_user_rating = self.item_matrix.mean(axis=1)
+            # We use np.newaxis so that mean_user_rating has same format as ratings
+            ratings_diff = (self.item_matrix - mean_user_rating[:, np.newaxis])
+            self.prdiction = mean_user_rating[:, np.newaxis] + self.usersimilarity.dot(ratings_diff) / np.array(
+                [np.abs(self.usersimilarity).sum(axis=1)]).transpose()
+        elif type == 'item':
+            self.prdiction = self.item_matrix.dot(self.itemsimilarity) / np.array([np.abs(self.itemsimilarity).sum(axis=1)])
+
+
 For Code and Implementation detail visit [Git hub](https://github.com/BhaskarTrivedi/QuerySearch_Recommentation_Classification)<br/><br/>
 
 Dataset <br/>
@@ -204,6 +257,7 @@ More [movie dataset](https://www.kaggle.com/rounakbanik/the-movies-dataset#movie
 Reference <br/>
 https://github.com/mnielsen/VSM/blob/master/vsm.py 
 http://blog.josephwilk.net/projects/building-a-vector-space-search-engine-in-python.html 
-
+https://www.analyticsvidhya.com/blog/2018/06/comprehensive-guide-recommendation-engine-python/
+https://nlp.stanford.edu/IR-book/pdf/13bayes.pdf 
 
 
