@@ -38,7 +38,8 @@ Recommender System / Machine is developed to suggest end user with the product (
 Todays we have lots of data available in every field of study. With so many data we have access to any information, but large chunk of data has its own challenges. Due to large amount of data search for specific information has become challenging. To speed up search and retrieve the accurate data many search algorithms has developed. One of them is calculating similarity between query and document using vector space model (VSM) where vsm is created using tf-idf. <br/> <br/>
 Idf<br/>
 Inverse Document Frequency introduce to reduce impact of term which occur too frequently in all document. Idea here to give more importance to the term which occurs many times in few numbers of document.<br/> <br/>
-Idf ia define as idf = log ( N/dft)<br/>
+Idf is define as <br/>
+idf = log ( N/dft)<br/>
 Where N = number of document <br/>
 dft = number of document terms appears. <br/><br/>
 TF<br/>
