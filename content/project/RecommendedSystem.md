@@ -90,6 +90,23 @@ Calculating idf<br/>
                 document_vector.append(0)
         return document_vector
         
+Create Query Vector<br/>
+create tf-idf weight vector of query term<br/>
+
+
+    def Make_Query_vector(self,query_token):
+        unique_Q_terms = set(query_token)
+        query_length = len(query_token)
+        vector = []
+        for term in unique_Q_terms:
+            term_count = query_token.count(term)
+            term_F = term_count / query_length
+            query_idf = self.Calculate_Inverse_Document_Frequency(term)
+            tf_idf = term_F * query_idf
+            vector.append(tf_idf)
+
+        return vector
+        
 Calculate cosine similarity<br/>
 calculate cosign similarity of two tf-idf vector<br/>
 
@@ -97,6 +114,9 @@ calculate cosign similarity of two tf-idf vector<br/>
     def Calculate_similarity(self,query_vec,doc_vec):
 
         return dot(query_vec,doc_vec)/(norm(query_vec)*norm(doc_vec))
+        
+ Searching the query<br/>
+ We perform cosine similarity between query and document space vector.<br/>
             
  
 
