@@ -47,7 +47,7 @@ Tf = (number of time term t appear in document)/ total number of terms.<br/>
 Tf-idf define as terms frequency multiple by inverse document frequency.<br/>
 Tf-idf = tf * idf <br/><br/>
 Vector space model
-Vector space model is used to store algebraic information of textual document. One of the ways to store algebraic information id tf-idf which we are covering in this blog.<br/>
+Vector space model is used to store algebraic information of textual document. One of the ways to store algebraic information is tf-idf which we are covering in this blog.<br/>
 
 
 
