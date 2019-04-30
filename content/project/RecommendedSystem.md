@@ -122,9 +122,6 @@ calculate cosign similarity of two tf-idf vector<br/>
  
 
 
-
-
-
 **Classification**<br/>
 Classification problem can be defined as “deciding class for unknown data based on its feature and learning from old known data and its classes”. As an example, lets we have a dataset of spam and regular email. After looking into these data set, we decide some feature specific these data like sender, subject line, external link and domain. These features can act as a dimensionality of dataset.  
 <br/>
@@ -192,6 +189,11 @@ CalculateTermProbablity : Predict probability of term based on naïve bayes <br/
                 className = key
 
 <br/>
+
+Accuracy measure from implementation<br/>
+Training Accuracy = 97.5%<br/>
+Test Accuracy = 35.0 %<br/>
+
 For Code and Implementation detail visit [Git hub](https://github.com/BhaskarTrivedi/QuerySearch_Recommentation_Classification)<br/><br/>
 
 Dataset <br/>
