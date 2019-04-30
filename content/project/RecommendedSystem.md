@@ -40,7 +40,15 @@ Idf<br/>
 Inverse Document Frequency introduce to reduce impact of term which occur too frequently in all document. Idea here to give more importance to the term which occurs many times in few numbers of document.<br/> <br/>
 Idf ia define as idf = log ( N/dft)<br/>
 Where N = number of document <br/>
-dft = number of document terms appears. <br/>
+dft = number of document terms appears. <br/><br/>
+TF<br/>
+Terms frequency measure how frequently a term occurs in document. It is defined as number of times term appears in document divided by total number of terms.<br/>
+Tf = (number of time term t appear in document)/ total number of terms.<br/>
+Tf-idf define as terms frequency multiple by inverse document frequency.<br/>
+Tf-idf = tf * idf <br/><br/>
+Vector space model
+Vector space model is used by to store algebraic information of textual document. One of the ways to store algebraic information id tf-idf which we are covering in this blog.<br/>
+
 
 
 Classification<br/>
