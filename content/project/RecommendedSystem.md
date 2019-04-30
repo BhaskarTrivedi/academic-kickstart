@@ -199,5 +199,9 @@ Dataset primary refer as a collection of similar type of index data which can be
 To explore more dataset [click here](https://www.kdnuggets.com/2016/02/nine-datasets-investigating-recommender-systems.html).
 More [movie dataset](https://www.kaggle.com/rounakbanik/the-movies-dataset#movies_metadata.csv).
 
+Reference <br/>
+https://github.com/mnielsen/VSM/blob/master/vsm.py 
+http://blog.josephwilk.net/projects/building-a-vector-space-search-engine-in-python.html 
+
 
 
