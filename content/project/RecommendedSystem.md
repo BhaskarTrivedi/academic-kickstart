@@ -47,7 +47,18 @@ Tf = (number of time term t appear in document)/ total number of terms.<br/>
 Tf-idf define as terms frequency multiple by inverse document frequency.<br/>
 Tf-idf = tf * idf <br/><br/>
 Vector space model
-Vector space model is used to store algebraic information of textual document. One of the ways to store algebraic information is tf-idf which we are covering in this blog.<br/>
+Vector space model is used to store algebraic information of textual document. One of the ways to store algebraic information is tf-idf which we are covering in this blog.<br/><br/>
+
+Cosine similarity<br/>
+Cosine similarity is one of way to measure similarity between two document or between document and query.<br/>
+Cos(d1,d2) = dot(d1,d2) / (||d1||*||d2||)<br/><br/>
+Query search algorithm<br/>
+  Calculate the term frequency<br/>
+  Calculate inverse document frequency<br/>
+  Create vector space model using tf-idf<br/>
+  Calculate similarity between document and query using cosine similarity<br/>
+  Retrieve document based on cosine similarity<br/>
+
 
 
 
