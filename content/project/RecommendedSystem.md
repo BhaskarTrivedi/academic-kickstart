@@ -34,6 +34,15 @@ Purpose of this project to develop a  recommended system from scratch. Best appr
 Abstract:<br/>
 Recommender System / Machine is developed to suggest end user with the product ( can be anything likes movies, sports, food etc.) based on user interest. There are many ways to predict about end user interest. One of the most popular ways to keep track of user past, interest and suggest him/her according to his/her history(commonly known as content based recommendation). The positive side of this approach , it is simple and easy to develop, but the downside of it, the user may get monotonous suggestion and every time he will get the same kind of suggested product. Other approach can be a collaborative recommendation, where user not only get recommendations based on his/her interest but, also based on other similar user who matches with his/her interest to certain thresholds. It helps user to explore new area which he did not explore, but he may find it interesting once introduce it to them. <br/>
 
+Search<br/>
+Todays we have lots of data available in every field of study. With so many data we have access to any information, but large chunk of data has its own challenges. Due to large amount of data search for specific information has become challenging. To speed up search and retrieve the accurate data many search algorithms has developed. One of them is calculating similarity between query and document using vector space model (VSM) where vsm is created using tf-idf. <br/>
+Idf<br/>
+Inverse Document Frequency introduce to reduce impact of term which occur too frequently in all document. Idea here to give more importance to the term which occurs many times in few numbers of document.<br/>
+Idf ia define as idf = log ( N/dft)<br/>
+Where N = number of document <br/>
+dft = number of document terms appears. <br/>
+
+
 Classification<br/>
 Classification problem can be defined as “deciding class for unknown data based on its feature and learning from old known data and its classes”. As an example, lets we have a dataset of spam and regular email. After looking into these data set, we decide some feature specific these data like sender, subject line, external link and domain. These features can act as a dimensionality of dataset.  
 <br/>
