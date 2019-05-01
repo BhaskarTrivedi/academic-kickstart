@@ -203,10 +203,10 @@ Recommendation engine method.
     User Collaborative recommendation
 
 Content based recommendation<br/>
-In content based recommendation user get recommendation based on his selection about product in past. 
+In content-based recommendation user get recommendation based on his selection about product in past. 
 
 User Collaborative recommendation<br/>
-In this approach first we calculate similarity between two user based on common item they liked. After calculation similarity we recommend product which is like bu=y most similar user to another user.
+In this approach first we calculate similarity between two users based on common item they liked. After calculation similarity we recommend product which is like by most similar user to another user.
 
     Pitem = Ʃ ( Rvi * Suv) / Ʃ (Suv)
     Pitem = Predection of item
@@ -255,9 +255,9 @@ To explore more dataset [click here](https://www.kdnuggets.com/2016/02/nine-data
 More [movie dataset](https://www.kaggle.com/rounakbanik/the-movies-dataset#movies_metadata.csv).
 
 Reference <br/>
-https://github.com/mnielsen/VSM/blob/master/vsm.py 
-http://blog.josephwilk.net/projects/building-a-vector-space-search-engine-in-python.html 
-https://www.analyticsvidhya.com/blog/2018/06/comprehensive-guide-recommendation-engine-python/
-https://nlp.stanford.edu/IR-book/pdf/13bayes.pdf 
+https://github.com/mnielsen/VSM/blob/master/vsm.py <br/>
+http://blog.josephwilk.net/projects/building-a-vector-space-search-engine-in-python.html <br/>
+https://www.analyticsvidhya.com/blog/2018/06/comprehensive-guide-recommendation-engine-python/<br/>
+https://nlp.stanford.edu/IR-book/pdf/13bayes.pdf <br/>
 
 
