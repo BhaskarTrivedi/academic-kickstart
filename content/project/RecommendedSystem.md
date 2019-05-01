@@ -200,12 +200,12 @@ Recommendation is being used to suggest its user a product which he is most like
 Recommendation engine method.
 
     Content based recommendation
-    User Collabrative recommentation
+    User Collaborative recommendation
 
 Content based recommendation<br/>
 In content based recommendation user get recommendation based on his selection about product in past. 
 
-User Collabrative recommendation<br/>
+User Collaborative recommendation<br/>
 In this approach first we calculate similarity between two user based on common item they liked. After calculation similarity we recommend product which is like bu=y most similar user to another user.
 
     Pitem = Ʃ ( Rvi * Suv) / Ʃ (Suv)
