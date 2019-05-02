@@ -246,6 +246,11 @@ Prediction of item
         elif type == 'item':
             self.prdiction = self.item_matrix.dot(self.itemsimilarity) / np.array([np.abs(self.itemsimilarity).sum(axis=1)])
 
+Android Application<br/>
+I have developed android application to communicate to server and show result of search, classification and recommendation to user.
+I connect to server using java HTTPAsyncTask class. I send data using POST method in json object and receive result from server in the form of json object.<br/>
+{{< figure src="/img/Architecture.JPG" title="" >}} 
+
 
 For Code and Implementation detail visit [Git hub](https://github.com/BhaskarTrivedi/QuerySearch_Recommentation_Classification)<br/><br/>
 
