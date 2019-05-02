@@ -246,7 +246,7 @@ Prediction of item
         elif type == 'item':
             self.prdiction = self.item_matrix.dot(self.itemsimilarity) / np.array([np.abs(self.itemsimilarity).sum(axis=1)])
 
-Android Application<br/>
+**Android Application**<br/>
 I have developed android application to communicate to server and show result of search, classification and recommendation to user.
 I connect to server using java HTTPAsyncTask class. I send data using POST method in json object and receive result from server in the form of json object.<br/>
 {{< figure src="/img/Architecture.JPG" title="" >}} 
@@ -254,7 +254,7 @@ I connect to server using java HTTPAsyncTask class. I send data using POST metho
 
 For Code and Implementation detail visit [Git hub](https://github.com/BhaskarTrivedi/QuerySearch_Recommentation_Classification)<br/><br/>
 
-Dataset <br/>
+**Dataset** <br/>
 Dataset primary refer as a collection of similar type of index data which can be used for special purposes. With time and technology data set are becoming huge and tradition approach (normal SQL queries) is not sufficient to store and retrieve data from data set. To tackle this situation big data come into picture. It helps with fast data retrieval with proper indexing. The first step towards developing any recommender system is to finalize data set. According to data set we can plan our approach and decide which feature is important to create our recommender system. Click here to visit [movielens](https://grouplens.org/datasets/movielens/).
 To explore more dataset [click here](https://www.kdnuggets.com/2016/02/nine-datasets-investigating-recommender-systems.html).
 More [movie dataset](https://www.kaggle.com/rounakbanik/the-movies-dataset#movies_metadata.csv).
