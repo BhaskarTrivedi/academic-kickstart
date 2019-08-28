@@ -66,8 +66,8 @@ enableGitInfo = false
   email = "test@example.org"
   address = "ERB 405, University of Texas, Arlington, USA"
   office_hours = """
-  Monday 05:00 to 07:00 PM\\
-  Wednesday 05:00 to 07:00 PM\\
+  Monday 02:00 to 03:30 PM\\
+  
   Otherwise email to book an appointment
   """
   
