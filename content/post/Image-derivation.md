@@ -1,6 +1,6 @@
 +++
 title = "Image Derivation" 
-date = 2019-12-21T00:00:00
+date = 2019-09-13T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Bhaskar Chandra Trivedi"]
