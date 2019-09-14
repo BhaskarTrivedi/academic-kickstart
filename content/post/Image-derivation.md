@@ -31,7 +31,7 @@ df/dx = f(x) – f(x-1) = f’(x)                   backward difference
 df/dx= f(x) – f(x+1) = f’(x)                    forward difference
 df/dx= f(x+1) – f(x+1) = f’(x)                  Central difference
  
-10	20	10	200	210	250	250
+[10	20	10	200	210	250	250]
 
 Central derivative [ -1 0 1]
 Derivative at index 3 = 210 – 10 = 200
