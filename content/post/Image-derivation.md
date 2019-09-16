@@ -47,6 +47,6 @@ Example given in shah lecture with x and y derivative <br />
 {{< figure src="/img/ID3.JPG" title="" >}}<br />
 
 Reference <br/>
-https://mccormickml.com/2013/02/26/image-derivative/ 
-https://www.youtube.com/watch?v=1THuCOKNn6U 
-http://www.cs.cmu.edu/~16385/s17/Slides/4.0_Image_Gradients_and_Gradient_Filtering.pdf 
+https://mccormickml.com/2013/02/26/image-derivative/ <br />
+https://www.youtube.com/watch?v=1THuCOKNn6U <br />
+http://www.cs.cmu.edu/~16385/s17/Slides/4.0_Image_Gradients_and_Gradient_Filtering.pdf <br />
