@@ -36,3 +36,17 @@ df/dx= f(x+1) – f(x+1) = f’(x)                  Central difference<br />
 Central derivative [ -1 0 1]<br />
 Derivative at index 3 = 210 – 10 = 200<br />
 Derivative mask for image<br />
+
+{{< figure src="/img/ID1.JPG" title="" >}}<br />
+
+derivative<br />
+
+{{< figure src="/img/ID2.JPG" title="" >}}<br />
+
+Example given in shah lecture with x and y derivative <br />
+{{< figure src="/img/ID3.JPG" title="" >}}<br />
+
+Reference <br/>
+https://mccormickml.com/2013/02/26/image-derivative/ 
+https://www.youtube.com/watch?v=1THuCOKNn6U 
+http://www.cs.cmu.edu/~16385/s17/Slides/4.0_Image_Gradients_and_Gradient_Filtering.pdf 
